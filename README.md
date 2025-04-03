@@ -48,7 +48,7 @@ product-price-tracker/
 ## 🏗️ Installation and Setup
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/your-username/product-price-tracker.git
+git clone https://github.com/nacosseruib/product-price-tracker.git
 cd product-price-tracker
 ```
 
