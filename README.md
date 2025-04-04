@@ -79,8 +79,9 @@ npm test
 ### **🔹 Set a Price Alert**
 **POST** `/api/v1/products/set-price-alert`
 ```json
+
 {
-    "productUrl": "http://example.com/laptop",
+    "productUrl": "https://www.amazon.co.uk/Sonos-Ace-Cancelling-Bluetooth-Headphones-White/dp/B0D37R7X6Z/?_encoding=UTF8&pd_rd_w=LcyPT&content-id=amzn1.sym.cac358f1-91b6-4ef5-baf3-9844c55779e6&pf_rd_p=cac358f1-91b6-4ef5-baf3-9844c55779e6&pf_rd_r=S8GVS2TK03XFSZCQRY6S&pd_rd_wg=btCy2&pd_rd_r=0bd373bc-fe3a-4e54-a522-b575ade7787f&ref_=pd_hp_d_atf_dealz_cs&th=1",
     "desiredPrice": 100,
     "email": "user@example.com",
     "scheduledTime": "0 8 * * *"
@@ -93,8 +94,8 @@ _Response:_
     "data": {
         "productUrl": "https://www.amazon.co.uk/Sonos-Ace-Cancelling-Bluetooth-Headphones-White/dp/B0D37R7X6Z/?_encoding=UTF8&pd_rd_w=LcyPT&content-id=amzn1.sym.cac358f1-91b6-4ef5-baf3-9844c55779e6&pf_rd_p=cac358f1-91b6-4ef5-baf3-9844c55779e6&pf_rd_r=S8GVS2TK03XFSZCQRY6S&pd_rd_wg=btCy2&pd_rd_r=0bd373bc-fe3a-4e54-a522-b575ade7787f&ref_=pd_hp_d_atf_dealz_cs&th=1",
         "desiredPrice": 100,
-        "email": "user@example.com",
-        "scheduledTime": "0 8 * * *"
+        "scheduledTime": "At 08:00 AM",
+        "email": "user@example.com"
     }
 }
 ```
