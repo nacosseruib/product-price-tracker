@@ -158,11 +158,4 @@ _Response:_
 ✅ **Test-Driven Development (TDD)**  
 ✅ **Proper Error Handling and Validation**  
 
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-🎉 **Now you’re ready to track product prices like a pro!** 🚀
-
----
+--
