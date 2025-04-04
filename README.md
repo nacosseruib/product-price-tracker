@@ -1,10 +1,10 @@
 # Product Price Tracker with Custom Alerts
 
---## 📌 Project Description
+## 📌 Project Description
 The **Product Price Tracker API** allows users to enter a product URL and set a price drop alert. The system simulates product price tracking by fetching static JSON data and notifying users when their desired price condition is met. Users can also schedule periodic price checks based on their preferred time intervals
 
 
--- ## 🚀 Features
+## 🚀 Features
 - **Set Price Alerts**: Users can enter a product URL and a target price to get notified when the price drops.
 - **Simulated Price Tracking**: Fetches product prices from a static JSON file.
 - **Time-Based Price Checks**: Users can schedule price checks at specific times (e.g., every 24 hours, morning, midnight, etc.).
@@ -13,15 +13,15 @@ The **Product Price Tracker API** allows users to enter a product URL and set a 
 - **Test-Driven Development (TDD)**: Ensures code reliability with unit tests.
 
 
--- ## 🛠️ Tech Stack
+## 🛠️ Tech Stack
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB (Is not required. So, i did not use database)
 - **Scheduler**: node-cron (for periodic checks)
 - **Testing**: Jest, Supertest
 
 
--- ## 📂 Project Structure
---```
+## 📂 Project Structure
+```sh
 product-price-tracker/
 │── src/
 │   ├── config/
@@ -47,7 +47,7 @@ product-price-tracker/
 ├── server.js                        # Starts the server
 ├── package.json                     # Project dependencies and scripts
 ├── README.md                        # Project documentation
---```
+```
 
 ## 🏗️ Installation and Setup
 ### **1️⃣ Clone the Repository**
