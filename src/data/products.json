@@ -1,20 +1,41 @@
 [
     {
-        "desiredPrice": 265,
+        "id": 0,
+        "desiredPrice": 305,
         "price": 259.99,
         "name": "HP EliteBook 840 G6 - i7-8565U (4 Cores, 4.6GHz), 16GB DDR4, 1TB NVMe, UHD Graphics, Fingerprint, SD & Smart Card reader, WIFI 5 & BT 4.2, UK keyboard Layout, Windows 11 Pro - 14” Ultrabook (Renewed)",
         "product": "https://www.amazon.co.uk/HP-EliteBook-840-Fingerprint-Ultrabook/dp/B0C1KMLT83/?_encoding=UTF8&pd_rd_w=CwV1E&content-id=amzn1.sym.a4ac6c4d-6ae7-4d95-b5e0-812c9dcfc72e%3Aamzn1.symc.fc11ad14-99c1-406b-aa77-051d0ba1aade&pf_rd_p=a4ac6c4d-6ae7-4d95-b5e0-812c9dcfc72e&pf_rd_r=S8GVS2TK03XFSZCQRY6S&pd_rd_wg=btCy2&pd_rd_r=0bd373bc-fe3a-4e54-a522-b575ade7787f&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
     },
     {
+        "id": 1,
         "desiredPrice": 20,
         "price": 21.19,
         "name": "OtterBox Commuter Series MagSafe Case for iPhone 16 Pro Max, Shockproof, Drop proof, Rugged, Protective Case, 3x Tested to Military Standard, Black",
         "product": "https://www.amazon.co.uk/OtterBox-Commuter-Shockproof-Protective-Military/dp/B0DF7FM3GF/?_encoding=UTF8&pd_rd_w=LcyPT&content-id=amzn1.sym.cac358f1-91b6-4ef5-baf3-9844c55779e6&pf_rd_p=cac358f1-91b6-4ef5-baf3-9844c55779e6&pf_rd_r=S8GVS2TK03XFSZCQRY6S&pd_rd_wg=btCy2&pd_rd_r=0bd373bc-fe3a-4e54-a522-b575ade7787f&ref_=pd_hp_d_atf_dealz_cs&th=1"
     },
     {
+        "id": 2,
         "desiredPrice": 45,
         "price": 40,
         "name": "CC-Los Men's Hiking Boots for Men Ankle Dress Chukka Boots Size 7.5-14",
         "product": "https://www.amazon.co.uk/CC-Los-Hiking-Boots-Chukka-7-5-14/dp/B0DGG1LMX2/ref=sr_1_1_sspa?_encoding=UTF8&content-id=amzn1.sym.60e0c5c0-1616-4d23-82b9-c7fb816f571e&dib=eyJ2IjoiMSJ9.oY1qhHI5q_oTyV_KbDjqgCa7EbgvgU_nKOcKx_JpxFk-PvTJWu5q_FEAG4Ofhox0KwcQbEczN28DnhxdJ-4d-ZS_7ibVrE2_QXrmLE-SkA3JOs98Sqr0wi4EFIELCas9g0iTVubZERhfJdtFUiIvefcQuJLYsEGtn4VD_6bQUdYcaQda7lF8f4QnIwjwBHPYdar5H5iUpX6R47Zp55ZqwL6t6MZF-br5VfmEAZ83gfvoS2YTZjrJxQfQBBIwkxeqIzMHN2u_qQWU8Kmv05cYBxp0g8arXJYYGmT34LSbLiI.O3K8webV3d86hu8xz65th0doUr_EOWPRMyte8RmQp98&dib_tag=se&keywords=men%2Bboots&pd_rd_r=96a48e66-04f3-4a72-8cd9-d67b24dfa520&pd_rd_w=vqav1&pd_rd_wg=QgycR&qid=1743684752&refinements=p_n_deal_type%3A26901100031&s=apparel&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1"
+    },
+    {
+        "id": 3,
+        "name": "Pink Bags for ladies",
+        "price": 900,
+        "desiredPrice": 1000
+    },
+    {
+        "id": 4,
+        "name": "HeadSet",
+        "price": 200,
+        "desiredPrice": 250
+    },
+    {
+        "id": 5,
+        "name": "Headphones",
+        "price": 50,
+        "desiredPrice": 80
     }
 ]
