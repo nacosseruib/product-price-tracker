@@ -107,7 +107,7 @@ _Response:_
 }
 ```
 
-### **🔹 GET a Check Price **
+### **🔹 Get a Check Price **
 **GET** `/api/v1/products/check-price`
 _Response:_
 ```json
