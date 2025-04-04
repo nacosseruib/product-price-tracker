@@ -64,8 +64,11 @@ npm install
 ### **3️⃣ Set Up Environment Variables**
 Create a `.env` file in the root directory and configure your environment variables:
 ```env
-PORT=5001
-DATABASE_URL=mongodb://localhost:27017/price-tracker
+PORT=
+NODE_ENV="development"
+SECRET_KEY=""
+DEV_HOST="127.0.0.1"
+KEEPDEFAULTTIMEZONE=""
 ```
 
 ### **4️⃣ Start the Server**
