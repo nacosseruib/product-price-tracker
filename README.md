@@ -3,7 +3,7 @@
 --## 📌 Project Description
 The **Product Price Tracker API** allows users to enter a product URL and set a price drop alert. The system simulates product price tracking by fetching static JSON data and notifying users when their desired price condition is met. Users can also schedule periodic price checks based on their preferred time intervals
 
---
+
 -- ## 🚀 Features
 - **Set Price Alerts**: Users can enter a product URL and a target price to get notified when the price drops.
 - **Simulated Price Tracking**: Fetches product prices from a static JSON file.
@@ -12,37 +12,41 @@ The **Product Price Tracker API** allows users to enter a product URL and set a 
 - **RESTful API**: Follows REST principles with structured responses.
 - **Test-Driven Development (TDD)**: Ensures code reliability with unit tests.
 
---
+
 -- ## 🛠️ Tech Stack
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB (Is not required. So, i did not use database)
 - **Scheduler**: node-cron (for periodic checks)
 - **Testing**: Jest, Supertest
 
---
+
 -- ## 📂 Project Structure
 --```
 product-price-tracker/
 │── src/
-│   ├── data/
-│   │   ├── products.json            # Static product price data
-│   ├── routes/
-│   │   ├── productRoutes.js         # Routes for API requests
+│   ├── config/
+│   │   └── scheduler.js             # Schedules price checks
 │   ├── controllers/
-│   │   ├── productController.js     # Handles price tracking logic
-│   ├── services/
-│   │   ├── priceCheckService.js     # Handles price checking
-│   │   ├── notificationService.js   # Handles user notifications
+│   │   └── productController.js     # Handles price tracking logic
+│   ├── data/
+│   │   └── products.json            # Static product price data
 │   ├── middleware/
 │   │   ├── validation.js            # Input validation middleware
-│   ├── config/
-│   │   ├── scheduler.js             # Schedules price checks
+│   │   └── errorHandler.js          # Centralized error handling middleware
+│   ├── routes/
+│   │   └── productRoutes.js         # Routes for API requests
+│   ├── services/
+│   │   ├── notificationService.js   # Handles user notifications
+│   │   └── priceCheckService.js     # Handles price checking
 │   ├── tests/
-│   │   ├── productRoutes.test.js    # Unit tests
-│   ├── app.js                       # Express app setup
-│── server.js                         # Starts the server
-│── package.json                      # Project dependencies
-│── README.md                         # Documentation
+│   │   └── productRoutes.test.js    # Unit tests for endpoints
+│   ├── utils/
+│   │   └── CustomError.js           # Custom error class for handling app-specific errors
+│   └── app.js                       # Express app setup
+│
+├── server.js                        # Starts the server
+├── package.json                     # Project dependencies and scripts
+├── README.md                        # Project documentation
 --```
 
 ## 🏗️ Installation and Setup
